@@ -167,10 +167,7 @@ body {
 }
 
 .main {
-  /* background: lightgray; */
-  /* background: rgba(0, 0, 0, 0.7); */
   background: var(--negro-7);
-
   margin: 0 0 1em;
   text-align: center;
   position: relative;
@@ -196,7 +193,6 @@ body {
 }
 
 .seccion .ul {
-  /* background: red; */
   margin: 2em 0 0;
   display: flex;
   flex-flow: row wrap;
@@ -204,13 +200,11 @@ body {
   align-items: center;
 }
 .seccion .ul .li {
-  /* background: lime; */
   margin: 0 1em;
 }
 .seccion .ul .a {
-  /* border: 1px solid rgba(255, 255, 255, 0.2); */
-  /* border-radius: 50%; */
   padding: 1em 1em 1em;
+  font-family: serif;
   text-transform: uppercase;
   font-weight: 600;
   transition: all 0.5s ease;
@@ -221,8 +215,6 @@ body {
 }
 
 .seccion .ul .a:hover {
-  /*   background: black;
-  color: white; */
   border-color: white;
 }
 .seccion .h2 {
@@ -312,8 +304,8 @@ body {
   margin: 0 0 1rem;
 }
 
-.about {
-}
+/* .about {
+} */
 .about .h2 {
   margin: 0 0 0.5em;
 }
@@ -325,33 +317,36 @@ body {
 }
 .about .rrss {
   width: 100%;
-  /* background: lightgreen; */
-
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
 .about .li {
-  /* background: orange; */
   margin: 0 1em;
 }
 .about .svg {
   width: 3em;
   height: 3em;
-  /* background: red; */
 }
 
 .footer {
-  padding: 2em 0;
+  padding: 1em 0;
   text-align: center;
   color: var(--blanco);
   position: relative;
   z-index: 2;
-  /* background: lightpink; */
 }
-.footer .span {
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.footer .container .footerDiv {
+  padding: 1em;
+  margin: 0 5em;
+} */
 
 @keyframes circulo1 {
   from {
